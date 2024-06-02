@@ -1,10 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.tsx";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+import { QueryProvider } from "./providers/query-provider.tsx";
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <QueryProvider>
+      <App />
+    </QueryProvider>
   </React.StrictMode>,
-)
+);

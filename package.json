@@ -1,7 +1,8 @@
 {
   "name": "nx-react-express-starter",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nx run-many -t dev -p api web --parallel 5",
+    "nx:migrate": "nx migrate latest"
   },
   "workspaces": [
     "apps",

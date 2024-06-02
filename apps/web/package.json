@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.40.0",
+    "@trpc/client": "11.0.0-rc.382",
+    "@trpc/react-query": "11.0.0-rc.382",
+    "api": "workspace:*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sonner": "^1.4.41",
+    "superjson": "^2.2.1"
   },
   "devDependencies": {
+    "@types/node": "^20.13.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
